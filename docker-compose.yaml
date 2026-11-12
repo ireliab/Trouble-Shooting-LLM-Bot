@@ -1,0 +1,7 @@
+services:
+    troubleshootingllm:
+        build:
+            context: .
+        env_file: "./.env"
+        ports:
+            - "8001:8001"
